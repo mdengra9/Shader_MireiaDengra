@@ -20,7 +20,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: 
+  m_LockedProperties: _RefractionScale
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -38,12 +38,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _FoamAmount: 4.93
+    - _FoamCutOff: 1.07
+    - _FoamScale: 200
+    - _FoamSpeed: 2
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _RefractionScale: 1
+    - _RefractionSpeed: 0.05
+    - _RefreactionStrengh: 2
     - _WaterDepth: 10
     m_Colors:
-    - _DeepWater: {r: 0.14630637, g: 0, b: 0.8396226, a: 0}
-    - _ShallowWater: {r: 0, g: 1, b: 0.85274386, a: 0}
+    - _DeepWater: {r: 0, g: 0.043035783, b: 0.8392157, a: 0.11372549}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShallowWater: {r: 0, g: 1, b: 0.85274386, a: 0.3254902}
   m_BuildTextureStacks: []
 --- !u!114 &3354240418604042472
 MonoBehaviour:
